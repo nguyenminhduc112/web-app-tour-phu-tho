@@ -1,0 +1,37 @@
+.containerNavigation {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 46.78, 92.44, 0.80) 0%, rgba(0, 46.78, 92.44, 0.80) 100%);
+    border-bottom: 1px white solid;
+    backdrop-filter: blur(15px);
+    justify-content: center;
+    align-items: center;
+    gap: 80;
+    padding: 20px 0px;
+}
+
+.listNavigation {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.link {
+    font-size: 20px;
+    color: white;
+    font-family: "Philosopher";
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.itemNavigation:hover .link,
+.itemNavigation .link.active {
+    border-bottom: 1px solid #99FFFF;
+    color: #99FFFF;
+    padding-bottom: 5px;
+    transition: all ease 0.5s;
+}
