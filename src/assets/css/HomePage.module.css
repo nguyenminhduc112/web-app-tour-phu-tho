@@ -1,0 +1,32 @@
+.content {
+    text-align: center;
+}
+
+.textNameCompany {
+    color: white;
+    font-family: "Philosopher";
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    word-wrap: break-word;
+}
+
+.textTitle {
+    color: #99FFFF;
+    font-family: "Helvetica Neue";
+    font-weight: 700;
+    letter-spacing: 1.76;
+    font-size: 44px;
+    word-wrap: break-word;
+    margin-bottom: 24px;
+}
+
+.textDate {
+    color: white;
+    font-family: "Helvetica Neue";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    word-wrap: break-word;
+    margin-bottom: 42px;
+}
